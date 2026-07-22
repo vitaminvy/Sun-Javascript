@@ -228,6 +228,26 @@ text.charAt(1); // "e"
 text[0]; // "H"
 ```
 
+### Regex Cơ Bản
+
+```js
+let re = /\w+/g;
+```
+
+- Đây là một regular expression dùng để tìm các chuỗi gồm ký tự chữ, số hoặc dấu gạch dưới.
+- `\w` khớp với một ký tự thuộc nhóm `[A-Za-z0-9_]`.
+- Dấu `+` nghĩa là khớp một hoặc nhiều ký tự `\w` liên tiếp.
+- Cờ `g` là `global`, giúp tìm tất cả kết quả phù hợp trong chuỗi thay vì dừng ở kết quả đầu tiên.
+
+Ví dụ:
+
+```js
+const text = "Hello_123 !!! JS";
+const matches = text.match(/\w+/g);
+
+console.log(matches); // ["Hello_123", "JS"]
+```
+
 ## 10. Array
 
 - Array trong JavaScript là object đặc biệt.
