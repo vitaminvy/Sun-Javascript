@@ -1,3 +1,4 @@
+
 # Ghi Chú TypeScript
 
 TypeScript là JavaScript có thêm hệ thống kiểu dữ liệu tĩnh. Code TypeScript cuối cùng vẫn được biên dịch về JavaScript để chạy trên trình duyệt hoặc Node.js.
@@ -8,7 +9,7 @@ Trước khi học TypeScript, nên nắm các phần JavaScript sau:
 
 - Biến: `const`, `let`
 - Kiểu dữ liệu cơ bản
-- Function
+- Functionlet
 - Array và object
 - Destructuring, spread/rest
 - DOM cơ bản
